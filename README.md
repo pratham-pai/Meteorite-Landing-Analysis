@@ -27,13 +27,13 @@ The primary objectives of this project are:
 ## Contents of the Repository
 
 ### SQL Queries
-The `meteorite_landings_analysis.sql` file contains a series of SQL queries used to analyze the meteorite landings dataset. Each query is extensively documented with explanations and context to aid in understanding its purpose and results.
+The [meteorite_landings_analysis.sql](https://github.com/pratham-pai/Meteorite-Landing-Analysis/blob/main/SQL/meteorite_landings_analysis.sql) file contains a series of SQL queries used to analyze the meteorite landings dataset. Each query is extensively documented with explanations and context to aid in understanding its purpose and results.
 
 ### Dataset
-The `MeteoriteLandings.csv` file serves as the dataset containing comprehensive information about meteorite landings. It includes details such as meteorite names, classifications, masses, landing years, and geographic coordinates. This dataset is the primary data source used by the SQL queries in `meteorite_landings_analysis.sql`.
+The [MeteoriteLandings.csv](https://github.com/pratham-pai/Meteorite-Landing-Analysis/blob/main/Dataset/MeteoriteLandings.csv) file serves as the dataset containing comprehensive information about meteorite landings. It includes details such as meteorite names, classifications, masses, landing years, and geographic coordinates. This dataset is the primary data source used by the SQL queries in `meteorite_landings_analysis.sql`.
 
 ### Delimiter Replacer
-The `CSV_delimiter_replacement.py` file is a Python script specifically designed to replace delimiters within CSV files. It offers functionality to replace one delimiter (e.g., commas) with another delimiter (e.g., semicolons) within a CSV file.
+The [CSV_delimiter_replacement.py](https://github.com/pratham-pai/Meteorite-Landing-Analysis/blob/main/Dataset/Data%20Cleaning%20and%20Formatting/CSV_delimiter_replacement.py) file is a Python script specifically designed to replace delimiters within CSV files. It offers functionality to replace one delimiter (e.g., commas) with another delimiter (e.g., semicolons) within a CSV file.
 
 ### Python Files for Visualization
 Python scripts for visualization purposes are included in the repository. Each script corresponds to different visualization techniques applied to the meteorite landings dataset. Screenshots of the visualization outputs are provided to showcase the insights derived from the data through Python visualizations. Each Python visualization script is accompanied by an individual SQL file. These SQL files detail the extraction and manipulation of data used in the corresponding Python visualization script. Screenshots capturing the outputs of SQL queries are included in the repository. These screenshots demonstrate the results obtained from executing the SQL queries on the meteorite landings dataset.
@@ -43,7 +43,7 @@ To explore the analysis conducted in this project:
 
 1. **Clone or Download Repository**: Clone or download the repository to your local machine using Git or by downloading the ZIP file from the GitHub page.
 
-2. **Access SQL Queries**: Open the `meteorite_landings_analysis.sql` file in a text editor or SQL environment to view the SQL queries and their documentation.
+2. **Access SQL Queries**: Open the [meteorite_landings_analysis.sql](https://github.com/pratham-pai/Meteorite-Landing-Analysis/blob/main/SQL/meteorite_landings_analysis.sql) file in a text editor or SQL environment to view the SQL queries and their documentation.
 
 3. **Execute SQL Queries**: Execute the SQL queries in your preferred SQL environment such as MySQL Workbench, Beekeeper Studio, or any other SQL client to analyze the meteorite landings dataset.
 
